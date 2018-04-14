@@ -1,0 +1,55 @@
+body {
+    background: #000 !important;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navbar */
+
+.nav {
+    padding: 1em 0;
+}
+
+ul li a {
+    text-decoration: none;
+    color: #eaeaea;
+    background: #000;
+    border: 1px solid #ad974f;
+    border-radius: 5px;
+    margin: .5em;
+}
+
+ul li a:hover {
+    text-decoration: none;
+    text-overflow: none;
+    border: 1px solid #eaeaea;
+    border-radius: 5px;
+    background: #ad974f;
+    color: #eaeaea !important;
+}
+
+/* Jumbotron */
+
+.jumbotron {
+    background: #000 !important;
+    color: #F1F7ED;
+    text-align: center;
+}
+
+p {
+    text-align: left;
+}
+
+a.btn {
+    color: #eaeaea;
+    background: #000;
+    border: 1px solid #ad974f;
+}
+
+a.btn:hover {
+    color: #eaeaea;
+    background: #ad974f;
+    text-align: center;
+    border: 1px solid #eaeaea;
+}
