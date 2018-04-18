@@ -1,3 +1,5 @@
+/* Core Styles */
+
 body {
     background: #000 !important;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif !important;
@@ -5,7 +7,18 @@ body {
     padding: 0;
 }
 
-/* Navbar */
+.container h1 {
+    color: #ad974f !important;
+    font-size: 3em;
+}
+
+.container p {
+    font-size: 1.2em;
+    padding: 1em;
+    color: #eaeaea;
+}
+
+/* Navbar Styles */
 
 .nav {
     padding: 1em 0;
@@ -29,16 +42,12 @@ ul li a:hover {
     color: #eaeaea !important;
 }
 
-/* Jumbotron */
+/* About Styles */
 
-.jumbotron {
-    background: #000 !important;
-    color: #F1F7ED;
-    text-align: center;
-}
-
-p {
+footer p {
     text-align: left;
+    color: #eaeaea;
+    font-size: 1em;
 }
 
 a.btn {
@@ -52,4 +61,51 @@ a.btn:hover {
     background: #ad974f;
     text-align: center;
     border: 1px solid #eaeaea;
+}
+
+/* Portfolio */
+
+h1 {
+    color: #eaeaea !important;
+    text-align: center;
+}
+
+img.me {
+    width: 50%;
+    float: right;
+}
+
+/* Carousel Image */
+
+.carousel-inner,
+carousel-item,
+img {
+    margin: 0;
+}
+
+/* Footer */
+
+footer {
+    text-align: center;
+    padding: .5em 0;
+    background: #eaeaea;
+}
+
+footer p {
+    text-align: center;
+    padding-top: 1em;
+    color: #000;
+}
+
+.container i {
+    color: #000 !important;
+    margin: 0 .2em;
+}
+
+.container i:hover {
+    color: #ad974f !important;
+}
+
+.fa-heart {
+    color: red !important;
 }
